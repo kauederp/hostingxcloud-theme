@@ -6,3 +6,12 @@
     defined here.
 
 ***************************************************** */
+
+#map {width:100%; aspect-ratio: 16/9;}
+#map .leaflet-pane.leaflet-tile-pane{
+    filter: invert() grayscale(1);
+
+}
+#map .leaflet-pane.leaflet-marker-pane{
+    
+}
